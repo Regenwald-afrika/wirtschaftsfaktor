@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Regenwald Afrikas</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style die bodys */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Überschrift */
+.header {
+  padding: 100px;
+  text-align: center;
+  background: #abcdef;
+  background-image: url('Img Start.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  color: white;
+}
+
+
+.header h1 {
+  font-size: 40px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+/* Style topnav Links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Navbar links */
+.navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+/* Säulen */
+.row {  
+  display: -ms-flexbox; 
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+/* Zwei ungleiche Säulen im Center */
+.side {
+  -ms-flex: 20%; 
+  flex: 20%;
+  text-align: left;
+  background-color: #1abc9c;
+}
+
+.main {   
+  -ms-flex: 80%; 
+  flex: 80%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Bilder */
+.img {
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: left;
+  background: #ddd;
+}
+.side1 {
+  -ms-flex: 70%; 
+  flex: 70%;
+  text-align: leftf;
+  background: #ddd;
+}
+
+.main1 {   
+  -ms-flex: 30%; 
+  flex: 30%;
+   background: #ddd;
+  padding: 20px;
+ }  
+/* Buttons in Navbar übereineander bei zu schmalen screen */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Regenwald Afrikas</h1>
+  <p>Auf dieser Website erhällst du Informationen über den Regenwald von Afrika.</p>
+  </div>
+
+<div class="navbar">
+  <a href="" >Start</a>
+  <a href="" >Allgemein</a>
+  <a href="" >Tiere</a>
+  <a href="" >Menschen</a>
+  <a href="" >Klimafaktor</a>
+  <a href="" class="active">Wirtschaft</a>
+  <a href="" >Schutz</a>
+  <a href="" >Quellenverzeichnis</a>
+</div>
+
+<div class="row"> 
+<div class="side">
+   <h2>Entstehung des Projektes </h2>
+   <br>
+    <p>Diese Website ist im Rahmen einer Projektarbeit im Geographieunterricht der Klasse 9b des Gymnasiums "Johanneum zu Lübeck" entstanden.
+	<br>
+	</p>
+	<h2>Aufgabenstellung</h2>
+	<br>
+	<p> Unsere Aufgabe war es in kleinen Gruppen Informationen über den Regenwald Afrikas herauszufinden. Dabei wurde das Thema in sechs Unterthemen unterteilt:
+	<br>- Allgemeines über den Regenwald
+	<br>- Der Regenwald als Lebensraum für Tiere
+	<br>- Menschen im Regenwald 
+	<br>- Der Regenwald als Klimafaktor 
+	<br>- Der Regenwald als Wirtschaftsfaktor
+    <br>- Der Schutz des Regenwaldes
+	</p>
+   <img src="Img Def. Klimawandel.jpg" width="280" height="200">
+  </div>
+  
+<div class="main">
+	<br>
+    <h2>Der Regenwald als Wirtschaftsfaktor</h2>
+	<img src="Img Emissionen Text.png" width="280" height="200">
+    <p></p>
+  </div>
+</div> 
+<div class="footer">
+ <div class="row"> 
+  <div class="side1">
+  <h3>Quellen</h3>
+  <p></p>
+</div>
+ <div class="main1"> 
+     <h3>Die Ersteller dieser Website</h3>
+	 <p>- Felix Pulter & Cedric Heinrich
+	<br>- Johanneum zu Luebeck Klasse 9b</p> 
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
