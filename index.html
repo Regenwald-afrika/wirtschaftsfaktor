@@ -40,7 +40,7 @@ body {
   top: 0;
 }
 
-/* Style topnav Links */
+/* Style topnav */
 .navbar a {
   float: left;
   display: block;
@@ -71,20 +71,29 @@ body {
   flex-wrap: wrap;
 }
 
-/* Zwei ungleiche Säulen im Center */
 .side {
-  -ms-flex: 20%; 
-  flex: 20%;
+  -ms-flex: 19%; 
+  flex: 19%;
   text-align: left;
   background-color: #1abc9c;
+  padding: 20px;
 }
 
 .main {   
-  -ms-flex: 80%; 
-  flex: 80%;
+  -ms-flex: 60%; 
+  flex: 60%;
   background-color: white;
-  padding: 20px;
+  padding: 40px;
 }
+
+.pictures {
+  -ms-flex: 20%; 
+  flex: 20%;
+  text-align: left;
+  background-color: #f2f2f2;
+  padding: 15px;
+}
+
 
 /* Bilder */
 .img {
@@ -96,28 +105,21 @@ body {
 .footer {
   padding: 20px;
   text-align: left;
-  background: #ddd;
+  background: #e6e6e6;
 }
 .side1 {
   -ms-flex: 70%; 
   flex: 70%;
-  text-align: leftf;
-  background: #ddd;
+  background: #e6e6e6;
 }
 
 .main1 {   
   -ms-flex: 30%; 
   flex: 30%;
-   background: #ddd;
+   background: #e6e6e6;
   padding: 20px;
  }  
-/* Buttons in Navbar übereineander bei zu schmalen screen */
-@media screen and (max-width: 400px) {
-  .navbar a {
-    float: none;
-    width: 100%;
-  }
-}
+
 </style>
 </head>
 <body>
